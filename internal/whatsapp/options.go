@@ -1,6 +1,8 @@
 package whatsapp
 
-const defaultBaseURL = "https://graph.facebook.com/v19.0"
+// defaultBaseURL is the base URL for the WhatsApp Cloud API.
+// Update the version string here when Meta releases a newer API version.
+const defaultBaseURL = "https://graph.facebook.com/v20.0"
 
 // Option is a functional option for configuring a Client.
 type Option func(*Client)
